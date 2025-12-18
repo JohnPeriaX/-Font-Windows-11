@@ -1,9 +1,44 @@
-- โปรดเก็บ Fonts ต้นฉบับไว้ทุกครั้งก่อนเปลี่ยน
+# 🇹🇭 Aura Noto Thai (Ubuntu Style)
+### Elevate your typography experience on Windows and Discord.
 
-- Please always save the original fonts before changing them.
+โปรเจกต์สำหรับปรับแต่งฟอนต์ระบบ Windows และ Discord ให้เป็น **Noto Sans Thai** ที่เน้นความสะอาดตา มินิมอล และนุ่มนวลเหมือนการเรนเดอร์บน Linux (Ubuntu)
 
-- Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts
-- Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes
+---
 
-- กดครั้งขวา เลือก export ตั้งชื่อ ทั้งของ Fonts / FontSubstitutes
-- Right-click, select export, and name both Fonts and FontSubstitutes.
+## 🪟 Windows System Font Change
+**วิธีเปลี่ยนฟอนต์เริ่มต้นของ Windows เป็น Noto Sans Thai ผ่าน Registry**
+
+### ⚠️ ข้อควรระวัง (Important Note)
+* **โปรดเก็บ Fonts ต้นฉบับไว้ทุกครั้งก่อนเปลี่ยน**
+* **Please always save the original fonts before changing them.**
+
+### 📥 วิธีสำรองฟอนต์เดิม (Backup Original Fonts)
+ก่อนทำการแก้ไข ให้ทำการ Export ค่าเริ่มต้นไว้ก่อนเผื่อกรณีต้องการเรียกคืน:
+1. กดปุ่ม `Win + R` พิมพ์ **regedit** แล้วกด Enter
+2. ไปที่ที่อยู่ (Path) ดังนี้:
+   * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts`
+   * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes`
+3. **กดคลิกขวา (Right-click)** ที่โฟลเดอร์เหล่านั้น เลือก **Export** และตั้งชื่อไฟล์เพื่อสำรองไว้
+   * **Select export, and name both Fonts and FontSubstitutes.**
+
+---
+
+## 💬 Discord Customization
+**วิธีติดตั้ง Plugin สำหรับ Discord เพื่อเปลี่ยนฟอนต์ให้หรูหราแบบ UbuntuThai Legacy**
+
+### 🛠️ สิ่งที่ต้องมี (Prerequisites)
+* ติดตั้ง **BetterDiscord**: [https://betterdiscord.app/](https://betterdiscord.app/)
+
+### 🚀 ขั้นตอนการติดตั้ง (Installation Steps)
+1. ดาวน์โหลดไฟล์ `AuraNotoThai.plugin.js` (หรือ `UbuntuThai_Legacy.plugin.js`)
+2. เปิดโปรแกรม **Discord**
+3. ไปที่ **User Settings** (รูปฟันเฟือง) > หัวข้อ **BetterDiscord** > **Plugins**
+4. กดปุ่ม **Open Plugins Folder**
+5. นำไฟล์ `.js` ที่เตรียมไว้ วางลงในโฟลเดอร์นั้น
+6. กลับไปที่ Discord แล้วกด **Enable** (เปิดใช้งาน)
+
+---
+
+## 👨‍💻 Credits
+* **Lead Developer:** [JohnPeriaX](https://github.com/JohnPeriaX)
+* **Assistant Thought Partner:** Gemini AI
