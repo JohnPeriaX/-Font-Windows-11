@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"=""
+"Segoe UI Bold (TrueType)"=""
+"Segoe UI Bold Italic (TrueType)"=""
+"Segoe UI Italic (TrueType)"=""
+"Segoe UI Light (TrueType)"=""
+"Segoe UI Semibold (TrueType)"=""
+"Segoe UI Symbol (TrueType)"=""
+"Segoe UI Historic (TrueType)"=""
+"Segoe UI Emoji (TrueType)"="seguiemj.ttf"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Noto Sans Thai"
+"Segoe UI Light"="Noto Sans Thai"
+"Segoe UI Semilight"="Noto Sans Thai"
+"Segoe UI Semibold"="Noto Sans Thai"
+"Segoe UI Bold"="Noto Sans Thai"
+"Segoe UI Black"="Noto Sans Thai"
+"Tahoma"="Noto Sans Thai"
+"MS Sans Serif"="Noto Sans Thai"
+"Microsoft Sans Serif"="Noto Sans Thai"
+"Arial"="Noto Sans Thai"
